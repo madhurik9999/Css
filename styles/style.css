@@ -1,5 +1,5 @@
 /* Selectors */
-html {
+/* html {
     font-size: 22px;
 }
 
@@ -33,7 +33,7 @@ p {
 
 #second {
     font-style: italic;
-}
+} */
 
 /* Colors */
 /* body {
@@ -49,11 +49,42 @@ p {
 } */
 
 /* Css Units & Sizes */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
 h1 {
     border: 2px dashed red;
-    font-size: 32px;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+main {
+    font-size: 2rem;
 }
 
 p {
-    font-size: 32px;
+    font-size: 2rem;
+} */
+
+/* CSS BOX MODEL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    border: 2px dashed red;
+    width: 400px;
+    font-size: 3rem;
+    padding: 0.5em;
 }
