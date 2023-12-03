@@ -63,3 +63,14 @@ hexa decimal color : #000000 #FFFFFF #00FFFF #0000FF #FF00FF
 hsla(hue, saturation, lightness, alpha)
 
 <!-- /* Css Units & Sizes */ -->
+percentage %
+px
+rem
+em
+vw
+vh
+Browser default is 16px
+Example: when we set a font size on element the"em" looks only at the element
+
+<!-- Box Modal -->
+
