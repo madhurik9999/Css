@@ -96,33 +96,8 @@ h1 {
     box-sizing: border-box;
 }
 
-.container {
-    /* border: dashed red; */
-    border: offset red;
-    /* border: double red; */
-    border-top-width: 5px;
-    border-left: 5px dotted;
-    border-right: 5px solid;
-    font-size: 1.5rem;
-    /* margin-top: 1.5rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    margin-bottom: 1.5rem; */
-    margin: 2rem 2rem 2rem 2rem;
-    /* margin: 2rem 2rem 2rem ;
-    margin: 2rem 2rem; */
+header {
+    border: 2px dashed red;
+    width: 400px;
     padding: 1.5rem;
-    outline: 5px solid purple;
-    outline-offset: 5px;
-}
-
-.circle {
-    margin: 3rem auto;
-    background-color: gold;
-    width: 100px;
-    height: 100px;
-    border: 2px solid #000;
-    border-radius: 50px;
-    outline: 2px solid red;
-    outline-offset: 0.25rem;
 }
