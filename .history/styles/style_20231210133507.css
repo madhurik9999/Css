@@ -5,7 +5,6 @@ letter spacing
 word spacing 
 line height
 Font Stacks and Callbacks
-external fonts
 body {
     padding: 10%;
     font-size: 2rem;
@@ -15,8 +14,6 @@ body {
 button {
     font: inherit;
 } */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
 p {
     text-decoration: none;
     /* text-decoration: overline; */
@@ -34,5 +31,5 @@ p {
     /* font-family: Arial, Helvetica, sans-serif; */
     /* font-family: sans-serif; */
     /* font-family: monospace; */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }

@@ -1,0 +1,10 @@
+/* Typography 1rem = 16px*/
+body {
+    padding: 10%;
+    font-size: 2rem;
+}
+
+/* input,
+button {
+    font: inherit;
+} */
