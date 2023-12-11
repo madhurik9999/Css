@@ -46,5 +46,7 @@ external fonts -->
 
 <!-- style hypertext links to indicate visited, hover, active and focus. Opacity -->
 
+<!-- how to style lists with list-style-type list-style-image list-style-position  list-style: square url('../images/checkmark.png') inside; ul li:nth-child(2),  -->
+
 
 
