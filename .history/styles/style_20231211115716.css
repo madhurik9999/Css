@@ -1,8 +1,7 @@
 /* Links: Active,
 hover,
 visited,
-focus  
-Opacity*/
+focus  */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
@@ -11,19 +10,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* main {
-    opacity: 0.4;
-} */
 
 a {
-    color: dodgerblue;
+    color: black;
 }
 
 a:hover,
 a:focus {
-    /* color: hsl(189, 100%, 56%); */
-    opacity: 0.8;
-    background: gold;
+    color: dodgerblue;
 }
 
 a:visited {
