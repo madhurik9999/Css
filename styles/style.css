@@ -5,51 +5,32 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-/* main {
-    background-color: aqua;
-    width: 50%;
-} */
-
-/* p {
-    background-color: lightgray;
-    /* margin: 100px 50px; */
-/* display: inline; */
-
-
-
-/* .opposite {
-    display: inline-block;
+.block {
+    width: 30vw;
+    height: 30vw;
     background-color: black;
-    color: whitesmoke;
-    padding: 4rem;
-    height: 200px;
-    margin-top: 100px;
-} */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-ul {
-    list-style-type: none;
-    padding-left: 0.5rem;
-    text-align: right;
-    background-color: blueviolet;
-    margin: 0px;
-}
-
-li {
-    display: inline-block;
-    margin-inline: 0.5rem;
-}
-
-li a {
     color: white;
-    text-decoration: none;
+    padding: 1rem;
 }
 
-li a:hover,
-li a:focus {
-    text-decoration: underline;
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
+.right {
+    float: right;
+    margin-left: 1rem;
+}
+
+.clear {
+    clear: both;
+}
+
+section {
+    background-color: bisque;
+    border: 1px solid black;
+    padding: 1rem;
+    /* overflow: auto; */
+    display: flow-root;
 }

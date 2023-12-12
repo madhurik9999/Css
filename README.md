@@ -62,6 +62,10 @@ cONVERTING liNK INTO BUTTON : we can style links like buttons
 Turning a list into row
 
 Display type none : removes completely from document flow
+<!-- Floats and Clear -->
+Floats are used to float elements from left to right or viceversa
+Floats you can use inside container example section but onething we need to remember to apply "display:flow-root" to the container so contains the full floated element and doesn't shrink based on the text content.
+
 
 
 
