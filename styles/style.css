@@ -1,34 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-body {
-    padding: 5% 10%;
-    font-size: 2rem;
-    font-family: "Roboto", sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-ol {
-    /* list-style-type: none;
-    list-style-image: url('../images/checkmark.png');
-    list-style-position: inside; */
-    /* list-style: square url('../images/checkmark.png') inside; */
-    /* list-style: lower-alpha inside; */
-    color: blue;
-    line-height: 1.6rem;
-    padding: 0;
+body {
+    margin: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+nav {
+    border: 2px solid black;
+    border-radius: 2rem 2rem 3rem;
+    overflow: hidden;
+    margin: 0 auto 1rem;
+    max-width: 600px;
+    font-size: 3rem;
+    line-height: 7rem;
+}
+
+h2 {
+    background: gold;
+    padding: 1rem;
+    border-radius: 2rem 2rem 0rem 0rem;
 }
 
 ul {
-    list-style-type: lower-alpha;
-    list-style-position: outside;
+    list-style-position: none;
 }
 
-/* ul li:nth-child(2) {
-    color: red;
-} */
-ol li:nth-child(odd) {
-    color: red;
+li {
+    border-top: 1px solid #333;
 }
 
-ol ::marker {
-    content: "only 5$>>>>    ";
+li:a {
+    display: block;
+}
+
+li:a,
+li a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+li a:hover,
+li a:focus {
+    cursor: pointer;
+    color: whitesmoke;
+    background: black;
+}
+
+li:last-child a {
+    border-radius: 0 0 2rem 2rem;
 }
