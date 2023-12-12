@@ -1,58 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+body {
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+/* main {
+    background-color: aqua;
+    width: 50%;
+} */
+
+/* p {
+    background-color: lightgray;
+    /* margin: 100px 50px; */
+/* display: inline; */
+
+
+
+/* .opposite {
+    display: inline-block;
+    background-color: black;
+    color: whitesmoke;
+    padding: 4rem;
+    height: 200px;
+    margin-top: 100px;
+} */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    margin: 0.5rem;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
-nav {
-    border: 2px solid black;
-    border-radius: 2rem 2rem 3rem;
-    overflow: hidden;
-    margin: 0 auto 1rem;
-    max-width: 600px;
-    font-size: 3rem;
-    line-height: 7rem;
-}
-
-h2 {
-    background: gold;
-    padding: 1rem;
-    border-radius: 2rem 2rem 0rem 0rem;
-}
-
 ul {
-    list-style-position: none;
+    list-style-type: none;
+    padding-left: 0.5rem;
+    text-align: right;
+    background-color: blueviolet;
+    margin: 0px;
 }
 
 li {
-    border-top: 1px solid #333;
+    display: inline-block;
+    margin-inline: 0.5rem;
 }
 
-li:a {
-    display: block;
-}
-
-li:a,
-li a:visited {
+li a {
+    color: white;
     text-decoration: none;
-    color: #333;
 }
 
 li a:hover,
 li a:focus {
-    cursor: pointer;
-    color: whitesmoke;
-    background: black;
-}
-
-li:last-child a {
-    border-radius: 0 0 2rem 2rem;
+    text-decoration: underline;
 }

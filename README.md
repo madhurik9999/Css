@@ -48,6 +48,20 @@ external fonts -->
 
 <!-- how to style lists with list-style-type list-style-image list-style-position  list-style: square url('../images/checkmark.png') inside; ul li:nth-child(2),  -->
 
+<!-- difference between block, inline, and inline-block display types. -->
+Block level elements stack on each other and always creates newline
+Block level elements automatically have 100% 
+Inline elements do not stack on each other and dont create a new line
+
+width.
+Inline level elements only take up the width of the content 
+Inline block WE CAN KEEP THE CONTENT INLINE AND WE CAN APPLY MARGIN TOP, BOTTOM,HEIGHT,PADDING
+When is inline block useful?
+
+cONVERTING liNK INTO BUTTON : we can style links like buttons 
+Turning a list into row
+
+Display type none : removes completely from document flow
 
 
 
